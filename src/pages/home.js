@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <div className="home-container">
-                <h1>Welcome to Uday's Learning Project</h1>
+                <h1>Welcome to Uday's Learning Project.</h1>
                 <p>This is the Home page.</p>
             </div>
         </div>
