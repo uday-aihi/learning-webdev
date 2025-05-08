@@ -1,7 +1,6 @@
 import React from "react";
-import "./page2.css";
+import "./page4.css";
 import { useState } from "react";
-import Navbar from "../components/navbar";
 
 const Page4 = () => {
     const [counterLeft, setCounterLeft] = useState(0);
@@ -17,7 +16,6 @@ const Page4 = () => {
 
     return (
         <div>
-            <Navbar></Navbar>
             <p className="main-text">
                 Clicked the buttons total {counterLeft + counterRight} times.
                 <br></br>Left button {counterLeft} times.<br></br>Right button{" "}

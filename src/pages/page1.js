@@ -1,6 +1,22 @@
 import React from "react";
 import "./page1.css";
-import Navbar from "../components/navbar";
+
+
+const ProfileCard = ({ user }) => {
+    return (
+        <div className="profile-container">
+            <div className="profile-card">
+                <img
+                    src={user.profileImage}
+                    alt="Profile"
+                    className="profile-image"
+                />
+                <h2 className="profile-name">{user.name}</h2>
+                <p className="profile-dob">Date of Birth: {user.dob}</p>
+            </div>
+        </div>
+    );
+};
 
 const Page1 = () => {
     const user = {
@@ -11,20 +27,7 @@ const Page1 = () => {
     };
 
     return (
-        <div>
-            <Navbar></Navbar>
-            <div className="profile-container">
-                <div className="profile-card">
-                    <img
-                        src={user.profileImage}
-                        alt="Profile"
-                        className="profile-image"
-                    />
-                    <h2 className="profile-name">{user.name}</h2>
-                    <p className="profile-dob">Date of Birth: {user.dob}</p>
-                </div>
-            </div>
-        </div>
+        <ProfileCard user={user}></ProfileCard>
     );
 };
 

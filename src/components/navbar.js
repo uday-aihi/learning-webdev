@@ -20,6 +20,12 @@ const Navbar = () => {
             <Link to="/page4" className="nav-link">
                 Double Counter
             </Link>
+            <Link to="/page5" className="nav-link">
+                Current Time
+            </Link>
+            <Link to="/page6" className="nav-link">
+                Feedback
+            </Link>
         </nav>
     );
 };

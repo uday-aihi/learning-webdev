@@ -1,0 +1,51 @@
+.main-text {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    background-color: #fbffbd;
+}
+
+.feedback-app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.main-text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedback-input {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.submit-button {
+    align-self: flex-end;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.feedback-list {
+    margin-top: 30px;
+}
+
+.feedback-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
