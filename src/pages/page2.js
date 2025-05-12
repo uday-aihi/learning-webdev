@@ -1,4 +1,5 @@
 import React from "react";
+import "./common.css";
 import "./page2.css";
 import { useState } from "react";
 

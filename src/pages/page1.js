@@ -1,5 +1,6 @@
 import React from "react";
 import "./page1.css";
+import "./common.css";
 
 
 const ProfileCard = ({ user }) => {

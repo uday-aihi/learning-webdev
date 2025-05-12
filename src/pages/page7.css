@@ -1,0 +1,32 @@
+.feedback-app {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.user-card {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+   width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./common.css";
 import "./page5.css";
 import { useState, useEffect } from "react";
 

@@ -1,18 +1,53 @@
 .navbar {
     display: flex;
     background-color: #333;
-    padding: 10px 20px;
+    padding: 5px 5px;
+    justify-content: space-between;
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 5px;
     padding: 8px 12px;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    gap: 1rem;
 }
 
 .nav-link:hover {
     background-color: #575757;
+}
+
+.nav-links {    
+    display: flex;
+    background-color: #333;
+    padding: 5px 5px;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.nav-username {
+    font-weight: 500;
+    color: white;
+}
+
+.nav-button {
+    padding: 0.2rem 0.3rem;
+    cursor: pointer;
+    color: white;
+    background-color: #434343;
+    border-radius: 8px;
 }

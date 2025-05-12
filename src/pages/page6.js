@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./common.css";
 import "./page6.css";
 
 const FeedbackForm = ({ onSubmit }) => {
@@ -20,9 +21,7 @@ const FeedbackForm = ({ onSubmit }) => {
                 placeholder="Enter your feedback..."
                 className="feedback-input"
             />
-            <button type="submit" className="submit-button">
-                Submit
-            </button>
+            <button type="submit" className="submit-button">Submit</button>
         </form>
     );
 };
@@ -33,9 +32,7 @@ const FeedbackList = ({ feedback }) => {
             <h3>Feedback Summary</h3>
             <ul>
                 {feedback.map((item, index) => (
-                    <li key={index} className="feedback-item">
-                        {item}
-                    </li>
+                    <li key={index} className="feedback-item">{item}</li>
                 ))}
             </ul>
         </div>
